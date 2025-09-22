@@ -11,6 +11,28 @@ html, body{
 
 }
 
+p.caption{
+    font-size: small;
+    font-style: italic;
+    color: rgba(255, 2, 2, 0.979);
+}
+
+p.href{
+    font-size: small;
+    font-style: italic;
+    color: rgb(255, 0, 0);
+}
+
+p.target{
+    font-size: small;
+    font-style: italic;
+    color: rgb(255, 0, 0);
+}
+
+a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
 header{
     text-align: center;
     background-color: rgb(238, 255, 0);
@@ -20,9 +42,10 @@ header{
 header h3{ 
     font-family: "Rubik Glitch", system-ui;
     font-weight: 400;
+    font-size: xx-large;
     font-style: normal;
     margin: 10px 0 20px 0;
-    color: rgb(56, 6, 138);
+    color: rgb(255, 0, 0);
 
     
 }
@@ -39,7 +62,7 @@ main h2, h3, h4, h5, h6{
     font-family: "Rubik Glitch", system-ui;
     font-weight: 400;
     font-style: light;
-    font-size: large;
+    font-size: x-large; 
     margin: 20px 0 20px 0;
     color: rgb(251, 255, 0);
 }
