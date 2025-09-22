@@ -34,10 +34,11 @@ main{
     margin: 20px;
 }
 
-main h2{
+main h2, h3, h4, h5{
     font-family: "Rubik Glitch", system-ui;
     font-weight: 400;
     font-style: light;
+    font-size: larger;
     margin: 10px 0 20px 0;
     color: rgb(251, 255, 0);
 }
